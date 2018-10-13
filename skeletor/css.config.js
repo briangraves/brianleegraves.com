@@ -11,6 +11,13 @@ module.exports = {
 					}
 				],
 				"plugins": [
+					require('postcss-easy-import'),
+					require('postcss-custom-properties'),
+					require('postcss-custom-selectors'),
+					require('postcss-custom-media'),
+				   require('postcss-color-mod-function'),
+					require('postcss-nested'),
+					require('autoprefixer'),
 					require('cssnano')
 				]
 			}

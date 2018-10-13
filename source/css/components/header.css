@@ -1,0 +1,14 @@
+.header {
+    background-image: url('../images/IMG_0116.jpg');
+    background-color: #d6d6d6;
+    background-blend-mode: multiply;
+    background-size: 180% auto;
+    background-repeat: no-repeat;
+    background-position: left bottom -20px;
+    text-align: center;
+    color: var(--color-white);
+    padding: 8rem 2rem;
+    clip-path: ellipse(130% 100% at 50% 0%);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
+    border-bottom: 23px solid var(--color-red);
+}

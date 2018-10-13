@@ -1,0 +1,13 @@
+body {
+    font-family: var(--font-family-primary);
+    color: var(--color-text);
+}
+
+p {
+    font-size: 0.875em;
+    line-height: 2;
+}
+
+p + p {
+    margin-top: 1.75em;
+}

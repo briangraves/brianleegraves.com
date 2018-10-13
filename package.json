@@ -1,15 +1,15 @@
 {
-  "name": "@deg-skeletor/sample-project",
+  "name": "brianleegraves.com",
   "version": "1.0.0",
-  "description": "A sample website project for testing the Skeletor family of build tools",
+  "description": "Codebase for brianleegraves.com",
   "scripts": {
     "start": "skel build && skel serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deg-skeletor/skeletor-sample-project.git"
+    "url": "git+https://github.com/briangraves/brianleegraves.com.git"
   },
-  "author": "Ryan Heap <heaper@gmail.com>",
+  "author": "Brian Graves <mail@brianleegraves.com>",
   "license": "ISC",
   "devDependencies": {
     "@deg-skeletor/cli": "^1.0.0",
@@ -18,6 +18,12 @@
     "@deg-skeletor/plugin-express": "^1.0.0",
     "@deg-skeletor/plugin-postcss": "^1.0.0",
     "@deg-skeletor/plugin-watch": "^1.0.0",
-    "cssnano": "^3.10.0"
+    "cssnano": "^3.10.0",
+    "postcss-color-mod-function": "^2.4.3",
+    "postcss-custom-media": "^6.0.0",
+    "postcss-custom-properties": "^7.0.0",
+    "postcss-custom-selectors": "^4.0.1",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-nested": "^3.0.0"
   }
 }

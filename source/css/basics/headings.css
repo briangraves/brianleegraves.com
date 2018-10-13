@@ -1,0 +1,13 @@
+.heading {
+    font-family: var(--font-family-headings);
+    line-height: 1.4;
+}
+
+.heading--large {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.heading--medium {
+    font-size: 1.25rem;
+}
