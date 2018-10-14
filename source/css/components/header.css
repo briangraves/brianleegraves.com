@@ -8,7 +8,7 @@
     text-align: center;
     color: var(--color-white);
     padding: 4rem 2rem;
-    clip-path: ellipse(130% 100% at 50% 0%);
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
-    border-bottom: 1.4375rem solid var(--color-red);
+    position: sticky;
+    top: 0;
+    z-index: -1;
 }

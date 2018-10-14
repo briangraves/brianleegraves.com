@@ -1,3 +1,20 @@
 .main {
+    position: relative;
+    background-color: var(--color-white);
+    &:before {
+        content: '';
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: block;
+        height: 1.4375rem;
+        background-color: var(--color-red);
+        /* clip-path: ellipse(130% 100% at 50% 0%); */
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
+    }
+}
+
+.container {
     padding: 2.25em 2em;
 }
