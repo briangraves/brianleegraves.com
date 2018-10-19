@@ -1,14 +1,36 @@
 .header {
-    background-image: url('../images/IMG_0116.jpg');
+    background-image: url('../images/hero_small.jpg');
     background-color: #d6d6d6;
     background-blend-mode: multiply;
-    background-size: 180% auto;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: left bottom -4rem;
+    background-position: 0 0;
     text-align: center;
     color: var(--color-white);
-    padding: 4rem 2rem;
+    padding: 5em 2em 4em 2em;
     position: sticky;
     top: 0;
     z-index: -1;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: block;
+        height: 1.4375rem;
+        background-color: var(--color-red);
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 1.375rem), 0 100%);
+    }
+}
+
+@media (min-width: 38.75em) {
+
+    .header {
+        background-image: url('../images/hero_med.jpg');
+        background-position: center top;
+        padding: 7em 2em 6em;
+    }
+
 }

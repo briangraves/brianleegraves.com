@@ -1,3 +1,30 @@
 .footer {
+    margin-top: 1em;
+    padding: 1em 0;
     background-color: var(--color-gray);
+    color: var(--color-white);
+}
+
+.nav--footer {
+    max-width: 30em;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+}
+
+.nav-list__item {
+    text-align: center;
+}
+
+.nav-list__link {
+    color: var(--color-white);
+}
+
+.nav-list__image {
+    display: block;
+    margin: 0 auto;
 }

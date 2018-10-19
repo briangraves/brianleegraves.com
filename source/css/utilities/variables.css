@@ -2,6 +2,7 @@
 	--color-black: #000;
     --color-white: #fff;
     --color-gray: #3c3c3c;
+    --color-gray-light: #b3b3b3;
     --color-red: #b3373e;
 
 	--color-text: var(--color-gray);
@@ -9,6 +10,9 @@
     --font-family-primary: 'Merriweather', serif;
     --font-family-headings: 'Montserrat', sans-serif;
 
-	--font-size-base: 1rem;
+	--font-size-base: 1em;
+    --font-size-base-medium: 1.25em;
 	--font-weight-normal: 400;
+
+    --container-width: 62.5rem;
 }

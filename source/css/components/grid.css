@@ -1,0 +1,26 @@
+.grid {
+    list-style: none;
+    display: grid;
+    grid-row-gap: .75rem;
+}
+
+.grid__item {
+    font-family: var(--font-family-headings);
+    line-height: 1.8;
+}
+
+.item__name {
+    color: var(--color-red);
+}
+
+.item__description {
+    display: block;
+    color: var(--color-gray-light);
+}
+
+@media (min-width: 38.75em) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem 1rem;
+    }
+}

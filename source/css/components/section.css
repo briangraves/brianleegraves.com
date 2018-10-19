@@ -1,0 +1,25 @@
+.section {
+    margin: 0 auto;
+    &:first-child {
+        padding-top: 2.25em;
+    }
+    &:not(:first-child) {
+        margin-top: 3em;
+    }
+}
+
+.section--image {
+    max-width: var(--container-width);
+    img { 
+        display: block; 
+        margin: 0 auto; 
+    }
+}
+
+@media (min-width: 38.75em) {
+
+    .section:first-child {
+        padding-top: 3em;
+    }
+
+}

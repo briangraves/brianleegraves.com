@@ -3,11 +3,28 @@ body {
     color: var(--color-text);
 }
 
-p {
-    font-size: 0.875em;
-    line-height: 2;
+a {
+    color: var(--color-red);
+    &:hover,
+    &:active {
+        text-decoration: underline;
+    }
 }
 
-p + p {
-    margin-top: 1.75em;
+p, ul, ol {
+    font-size: 0.875em;
+    line-height: 2;
+    & + p,
+    & + ul,
+    & + ol {
+        margin-top: 1.5em;
+    }
+}
+
+@media (min-width: 38.75em) {
+
+    body {
+        font-size: var(--font-size-base-medium);
+    }
+
 }

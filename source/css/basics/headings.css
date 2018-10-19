@@ -4,10 +4,15 @@
 }
 
 .heading--large {
-    font-size: 2.5rem;
+    font-size: 2.5em;
     text-transform: uppercase;
 }
 
 .heading--medium {
-    font-size: 1.25rem;
+    font-size: 1.5em;
+    margin-bottom: .65em;
+}
+
+.heading--small {
+    font-size: 1.25em;
 }
