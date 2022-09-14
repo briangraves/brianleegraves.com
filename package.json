@@ -12,18 +12,21 @@
   "author": "Brian Graves <mail@brianleegraves.com>",
   "license": "ISC",
   "devDependencies": {
-    "@deg-skeletor/cli": "^1.0.0",
+    "@deg-skeletor/cli": "^1.1.6",
     "@deg-skeletor/core": "^1.0.0",
     "@deg-skeletor/plugin-copy": "^0.2.1",
     "@deg-skeletor/plugin-express": "^1.0.0",
     "@deg-skeletor/plugin-postcss": "^1.0.0",
     "@deg-skeletor/plugin-watch": "^1.0.0",
-    "cssnano": "^3.10.0",
-    "postcss-color-mod-function": "^2.4.3",
-    "postcss-custom-media": "^6.0.0",
-    "postcss-custom-properties": "^7.0.0",
-    "postcss-custom-selectors": "^4.0.1",
-    "postcss-easy-import": "^3.0.0",
-    "postcss-nested": "^3.0.0"
+    "cssnano": "^5.1.13",
+    "postcss-color-mod-function": "^3.0.3",
+    "postcss-custom-media": "^8.0.2",
+    "postcss-custom-properties": "^12.1.8",
+    "postcss-custom-selectors": "^6.0.3",
+    "postcss-easy-import": "^4.0.0",
+    "postcss-nested": "^5.0.6"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.10"
   }
 }
